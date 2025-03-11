@@ -47,8 +47,8 @@ if page == "Tren Jumlah Pesanan":
     """)
 
 # Halaman 2: Distribusi Rating Pelanggan
-elif page == "⭐ Distribusi Rating Pelanggan":
-    st.title("⭐ Distribusi Nilai Rating Pelanggan")
+elif page == "Distribusi Rating Pelanggan":
+    st.title("Distribusi Nilai Rating Pelanggan")
 
     # Agregasi rating
     rating_counts = df_reviews['review_score'].value_counts().sort_index().reset_index()
